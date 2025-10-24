@@ -91,10 +91,11 @@ public class Usuario {
 		this.administrador = administrador;
 	}
 
-	public Usuario(String nombre, String apellidos, String email, Date fecha, String tlf) {
+	public Usuario(String nombre, String apellidos, String email, String clave, Date fecha, String tlf) {
 		this.nombre=nombre;
 		this.apellidos=apellidos;
 		this.email=email;
+		this.clave=clave;
 		this.fechaNacimiento=fecha;
 		this.telefono=(tlf!=null)?tlf: null;
 		this.administrador=false;

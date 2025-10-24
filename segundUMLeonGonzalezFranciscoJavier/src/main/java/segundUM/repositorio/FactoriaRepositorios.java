@@ -11,8 +11,8 @@ public class FactoriaRepositorios {
 	}
 	
 	public IRepositorioUsuarios getRepositorioUsuarios() {
-		// return new RepositorioUsuariosJPA(emf);
-		return null;
+		return new RepositorioUsuariosJPA(emf);
+		
 	}
 	
 	public IRepositorioCategorias getRepositorioCategorias() {
